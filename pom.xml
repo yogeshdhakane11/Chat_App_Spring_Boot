@@ -17,7 +17,7 @@
 	<licenses>
 		<license/>
 	</licenses>
-	<developers>
+	<developers
 		<developer/>
 	</developers>
 	<scm>
@@ -49,6 +49,8 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
+
+		<!-- Note - Added Resources application.properties -->
         <resources>
             <resource>
                 <directory>src/main/resources</directory>
